@@ -11,7 +11,7 @@
 -- MAGIC %python
 -- MAGIC import sys
 -- MAGIC
--- MAGIC sys.path.append("/Workspace/Users/grojas@fastmail.com/energy_transfer/Pipelines/New Pipeline 2026-02-26 11:34")
+-- MAGIC sys.path.append("/Workspace/Users/grojas@fastmail.com/energy_transfer/SilverAndGoldSQLV2")
 
 -- COMMAND ----------
 
@@ -20,4 +20,4 @@
 USE CATALOG `workspace`;
 USE SCHEMA `default`;
 
-SELECT * from sample_aggregation_feb_26_1134;
+SELECT * from sample_aggregation_silverandgoldsqlv2;
